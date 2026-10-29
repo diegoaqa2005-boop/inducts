@@ -1,0 +1,106 @@
+
+{
+  "titulo": "Indicadores en Claro",
+  "descripcion": "Página educativa para comprender los indicadores económicos y sociales de América Latina.",
+  "periodo": {
+    "inicio": 2020,
+    "fin": 2024
+  },
+  "indicadores": [
+    {
+      "nombre": "Población",
+      "unidad": "millones de habitantes",
+      "descripcion": "Cantidad aproximada de personas que viven en un país."
+    },
+    {
+      "nombre": "Crecimiento poblacional",
+      "unidad": "porcentaje",
+      "descripcion": "Muestra cuánto aumenta o disminuye la población."
+    },
+    {
+      "nombre": "Crecimiento real del PIB",
+      "unidad": "porcentaje",
+      "descripcion": "Indica si la producción económica crece o disminuye."
+    },
+    {
+      "nombre": "Esperanza de vida",
+      "unidad": "años",
+      "descripcion": "Estimación del promedio de años que viviría una persona."
+    },
+    {
+      "nombre": "Desempleo",
+      "unidad": "porcentaje",
+      "descripcion": "Porcentaje de la población activa que busca empleo y no lo encuentra."
+    },
+    {
+      "nombre": "Informalidad laboral",
+      "unidad": "porcentaje",
+      "descripcion": "Indicador relacionado con el empleo informal."
+    }
+  ],
+  "paises": [
+    {
+      "nombre": "Perú",
+      "codigo_iso": "PER",
+      "datos": [
+        {
+          "anio": 2020,
+          "poblacion_millones": 33.36,
+          "crecimiento_poblacional": 0.0142,
+          "pib_miles_de_millones_usd": 206.2,
+          "crecimiento_pib_real": -0.110,
+          "esperanza_vida": 73.7,
+          "desempleo": 0.130,
+          "informalidad_laboral": 0.130
+        },
+        {
+          "anio": 2021,
+          "poblacion_millones": 33.72,
+          "crecimiento_poblacional": 0.0135,
+          "pib_miles_de_millones_usd": 225.9,
+          "crecimiento_pib_real": 0.134,
+          "esperanza_vida": 72.4,
+          "desempleo": 0.108,
+          "informalidad_laboral": 0.108
+        },
+        {
+          "anio": 2022,
+          "poblacion_millones": 34.05,
+          "crecimiento_poblacional": 0.0115,
+          "pib_miles_de_millones_usd": 242.6,
+          "crecimiento_pib_real": 0.027,
+          "esperanza_vida": 73.4,
+          "desempleo": 0.078,
+          "informalidad_laboral": 0.078
+        },
+        {
+          "anio": 2023,
+          "poblacion_millones": 34.20,
+          "crecimiento_poblacional": 0.0105,
+          "pib_miles_de_millones_usd": 267.6,
+          "crecimiento_pib_real": -0.006,
+          "esperanza_vida": 74.2,
+          "desempleo": 0.070,
+          "informalidad_laboral": 0.070
+        },
+        {
+          "anio": 2024,
+          "poblacion_millones": 34.35,
+          "crecimiento_poblacional": 0.0102,
+          "pib_miles_de_millones_usd": 282.5,
+          "crecimiento_pib_real": 0.031,
+          "esperanza_vida": 74.7,
+          "desempleo": 0.065,
+          "informalidad_laboral": 0.065
+        }
+      ]
+    }
+  ],
+  "graficos": [
+    "Población por país",
+    "Evolución del crecimiento real del PIB",
+    "Esperanza de vida por país",
+    "Comparación de indicadores laborales"
+  ],
+  "nota": "Los datos son una transcripción educativa del PDF proporcionado. Las columnas de desempleo e informalidad deben verificarse en el Excel original, ya que la extracción disponible no permite confirmar sus valores por separado."
+}
