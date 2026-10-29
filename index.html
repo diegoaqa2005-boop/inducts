@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guía sencilla para entender indicadores económicos y sociales de países de América Latina.">
+  <title>Indicadores de América Latina | Guía fácil</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#inicio">🌎 Indicadores en Claro</a>
+      <div class="nav-links">
+        <a href="#indicadores">Indicadores</a>
+        <a href="#graficos">Gráficos</a>
+        <a href="#datos">Datos</a>
+        <a href="#glosario">Glosario</a>
+      </div>
+    </nav>
+    <div class="hero-content" id="inicio">
+      <p class="eyebrow">ECONOMÍA Y SOCIEDAD, EXPLICADAS FÁCIL</p>
+      <h1>¿Cómo está un país y cómo cambia con el tiempo?</h1>
+      <p class="hero-copy">Explora datos de población, economía, empleo y calidad de vida de varios países latinoamericanos. Sin palabras complicadas: cada indicador viene explicado con ejemplos sencillos.</p>
+      <a class="button" href="#graficos">Explorar gráficos ↓</a>
+      <p class="note">Los números que aparecen son una muestra educativa basada en la tabla del material proporcionado (2020–2024). No sustituyen estadísticas oficiales actualizadas.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <div class="section-heading">
+        <p class="eyebrow">PRIMERO, LO BÁSICO</p>
+        <h2>¿Qué es un indicador?</h2>
+      </div>
+      <p>Un <strong>indicador</strong> es un dato que ayuda a describir una situación. Por ejemplo, la población indica cuántas personas viven en un país; el desempleo ayuda a entender cuántas personas que buscan trabajo no lo encuentran. Ningún indicador cuenta toda la historia por sí solo: conviene comparar varios y observar cómo cambian con los años.</p>
+      <div class="stat-strip">
+        <div><span class="stat-icon">👥</span><strong>Población</strong><span>¿Cuántas personas viven allí?</span></div>
+        <div><span class="stat-icon">📈</span><strong>Economía</strong><span>¿La producción crece o cae?</span></div>
+        <div><span class="stat-icon">🧰</span><strong>Empleo</strong><span>¿Qué tan fácil es encontrar trabajo?</span></div>
+        <div><span class="stat-icon">💚</span><strong>Bienestar</strong><span>¿Cómo viven las personas?</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="indicadores">
+      <div class="section-heading">
+        <p class="eyebrow">ENTIENDE CADA DATO</p>
+        <h2>Los indicadores principales</h2>
+        <p>Lee qué significa cada medida y qué preguntas puede ayudarte a responder.</p>
+      </div>
+      <div class="indicator-grid">
+        <article class="indicator-card"><span class="card-icon">👥</span><h3>Población</h3><p>Es la cantidad de personas que viven en un país. En la tabla está expresada en <strong>millones de habitantes</strong>.</p><div class="example"><b>Ejemplo:</b> 34,35 millones significa aproximadamente 34 millones y 350 mil personas.</div></article>
+        <article class="indicator-card"><span class="card-icon">🌱</span><h3>Crecimiento poblacional</h3><p>Indica cuánto aumenta o disminuye la población en un periodo, normalmente un año. En la tabla los valores están en formato decimal.</p><div class="example"><b>Ejemplo:</b> 0,0102 equivale a 1,02 %.</div></article>
+        <article class="indicator-card"><span class="card-icon">🏭</span><h3>PIB real</h3><p>El Producto Interno Bruto real mide el valor de los bienes y servicios producidos, ajustando el efecto de los cambios de precios. La tabla lo presenta en miles de millones de dólares según el encabezado del documento.</p><div class="example"><b>Importante:</b> el PIB total no indica por sí solo cómo se reparte la riqueza.</div></article>
+        <article class="indicator-card"><span class="card-icon">📊</span><h3>Crecimiento real del PIB</h3><p>Muestra si la producción de la economía aumentó o disminuyó frente al periodo anterior.</p><div class="example"><b>Ejemplo:</b> 0,031 equivale a 3,1 % de crecimiento; −0,006 equivale a una caída de 0,6 %.</div></article>
+        <article class="indicator-card"><span class="card-icon">🧓</span><h3>Esperanza de vida</h3><p>Es una estimación de cuántos años viviría en promedio una persona bajo las condiciones de mortalidad del periodo.</p><div class="example"><b>Cómo leerlo:</b> 74,7 años no significa que todas las personas vivan exactamente esa cantidad.</div></article>
+        <article class="indicator-card"><span class="card-icon">🔎</span><h3>Desempleo</h3><p>Porcentaje de la población activa que no tiene empleo, está disponible y busca trabajo, según la definición estadística utilizada.</p><div class="example"><b>Ejemplo:</b> 0,065 equivale a 6,5 %; no significa que el 6,5 % de toda la población esté desempleada.</div></article>
+        <article class="indicator-card"><span class="card-icon">🧵</span><h3>Informalidad laboral</h3><p>Se refiere al empleo que no cumple una o más condiciones formales de trabajo o protección, según la definición de cada estadística.</p><div class="example"><b>Ejemplo:</b> 0,070 equivale a 7 % en formato decimal. Revisa la unidad y definición de la fuente antes de interpretarlo.</div></article>
+        <article class="indicator-card"><span class="card-icon">🧭</span><h3>IDH</h3><p>El Índice de Desarrollo Humano resume dimensiones como salud, educación e ingreso. En el archivo se usa en un gráfico, pero la tabla visible no incluye una columna IDH completa.</p><div class="example"><b>Nota:</b> por eso no se inventan valores de IDH en los gráficos de esta página.</div></article>
+      </div>
+    </section>
+
+    <section class="section chart-section" id="graficos">
+      <div class="section-heading">
+        <p class="eyebrow">EXPLORA LOS DATOS</p>
+        <h2>Gráficos interactivos</h2>
+        <p>Selecciona un indicador y un año. Puedes pasar el cursor por las barras o puntos para ver más información.</p>
+      </div>
+      <div class="controls">
+        <label>Indicador
+          <select id="metricSelect">
+            <option value="population">Población (millones)</option>
+            <option value="gdpGrowth">Crecimiento real del PIB (%)</option>
+            <option value="life">Esperanza de vida (años)</option>
+            <option value="unemployment">Desempleo (%)</option>
+            <option value="informality">Informalidad laboral (valor de la tabla, % interpretado)</option>
+            <option value="populationGrowth">Crecimiento poblacional (%)</option>
+          </select>
+        </label>
+        <label>Año
+          <select id="yearSelect">
+            <option>2020</option><option>2021</option><option>2022</option><option>2023</option><option selected>2024</option>
+          </select>
+        </label>
+        <label>País destacado
+          <select id="countrySelect">
+            <option value="Perú">Perú</option><option value="Argentina">Argentina</option><option value="Bolivia">Bolivia</option><option value="Brasil">Brasil</option><option value="Chile">Chile</option><option value="Colombia">Colombia</option><option value="Ecuador">Ecuador</option><option value="Paraguay">Paraguay</option><option value="Uruguay">Uruguay</option><option value="Venezuela">Venezuela</option>
+          </select>
+        </label>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title-row"><div><h3 id="chartTitle">Población por país</h3><p id="chartSubtitle">Año 2024 · millones de habitantes</p></div><span class="live-pill">● Interactivo</span></div>
+        <div class="canvas-wrap"><canvas id="mainChart" aria-label="Gráfico comparativo de indicadores por país"></canvas></div>
+        <p class="chart-explanation" id="chartExplanation">La población ayuda a comparar el tamaño de los países, pero no indica por sí sola su nivel de bienestar.</p>
+      </div>
+      <div class="chart-card secondary-chart">
+        <div class="chart-title-row"><div><h3>Evolución del país seleccionado</h3><p id="trendSubtitle">Perú, 2020–2024</p></div></div>
+        <div class="canvas-wrap line-wrap"><canvas id="trendChart" aria-label="Evolución del indicador elegido a través de los años"></canvas></div>
+        <p class="chart-explanation">Este gráfico permite observar la tendencia, no demostrar por sí solo la causa de los cambios.</p>
+      </div>
+    </section>
+
+    <section class="section" id="datos">
+      <div class="section-heading">
+        <p class="eyebrow">CONSULTA RÁPIDA</p>
+        <h2>Datos del año elegido</h2>
+        <p>La tabla se actualiza cuando cambias el año en los controles de los gráficos.</p>
+      </div>
+      <div class="table-wrap"><table><thead><tr><th>País</th><th>Población (millones)</th><th>Crec. poblacional</th><th>Crec. PIB real</th><th>Esperanza de vida</th><th>Desempleo</th><th>Informalidad*</th></tr></thead><tbody id="dataTable"></tbody></table></div>
+      <p class="small-note">* Los valores se reproducen de la tabla del material recibido. Algunas etiquetas/unidades del PDF pueden ser ambiguas o inconsistentes; verifica el archivo Excel original y la fuente estadística antes de usar estos datos en un informe formal.</p>
+    </section>
+
+    <section class="section reading-section">
+      <div class="section-heading"><p class="eyebrow">LEE CON CRITERIO</p><h2>¿Cómo interpretar los gráficos?</h2></div>
+      <div class="steps">
+        <div><span>01</span><h3>Compara cosas equivalentes</h3><p>Usa el mismo año y la misma unidad para todos los países.</p></div>
+        <div><span>02</span><h3>Observa la tendencia</h3><p>Un solo año muestra una foto; varios años ayudan a ver cambios.</p></div>
+        <div><span>03</span><h3>No confundas relación con causa</h3><p>Dos indicadores pueden moverse juntos sin que uno sea necesariamente la causa del otro.</p></div>
+        <div><span>04</span><h3>Consulta la fuente</h3><p>Revisa quién recopiló los datos, el año, la metodología y las unidades.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="glosario">
+      <div class="section-heading"><p class="eyebrow">PALABRAS CLAVE</p><h2>Glosario sencillo</h2></div>
+      <div class="glossary">
+        <details><summary>Porcentaje (%)</summary><p>Una cantidad por cada cien. Por ejemplo, 5 % significa 5 de cada 100.</p></details>
+        <details><summary>Formato decimal</summary><p>Algunos porcentajes se guardan como decimales: 0,05 equivale a 5 %. Para convertirlo a porcentaje, multiplica por 100.</p></details>
+        <details><summary>Comparación entre países</summary><p>Permite identificar diferencias, pero hay que considerar el tamaño de la población, la metodología y el contexto de cada país.</p></details>
+        <details><summary>Fuente de datos</summary><p>Es el organismo o documento que publica la información. Una buena fuente explica cómo obtuvo los datos y cuándo fueron actualizados.</p></details>
+      </div>
+    </section>
+  </main>
+  <footer><div class="footer-inner"><a class="brand" href="#inicio">🌎 Indicadores en Claro</a><p>Material educativo para comprender datos económicos y sociales.</p><p class="footer-small">Sitio de demostración. Los datos deben verificarse con fuentes oficiales antes de tomar decisiones.</p></div></footer>
+</body>
+</html>
